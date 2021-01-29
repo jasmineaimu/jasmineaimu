@@ -95,7 +95,8 @@ p {
 
 .photo-mobile {
   display: flex;
-  height: 13vh;
+  height: 27vh;
+  width: 27vw;
   flex-direction: column;
   
 }

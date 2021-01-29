@@ -95,10 +95,10 @@ p {
 
 .photo-mobile {
   display: flex;
-  flex-direction: row;
   height: 13em;
-  justify-content: center;
-  margin-top: 0px;
+  width: 13em;
+  flex-direction: column;
+  
 }
 
 .photo-desktop {

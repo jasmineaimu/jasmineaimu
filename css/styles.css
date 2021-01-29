@@ -105,6 +105,12 @@ p {
   display: none;
   width: 100%;
 }
+
+.photo {
+ height:10vh;
+ width:10vw;
+}
+
 .rect {
   border: 1px solid #000000;
   box-sizing: border-box;

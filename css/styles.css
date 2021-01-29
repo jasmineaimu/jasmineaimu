@@ -97,7 +97,7 @@ p {
 .photo-mobile {
   display: flex;
   flex-direction: row;
-  height: 200px;
+  height: 13em;
   justify-content: center;
   margin-top: 0px;
   width: 100%;
@@ -186,7 +186,7 @@ p {
 @media (min-width: 47em) {
   h1 {font-size: 1.8em;}
   .nav-button {font-size: 1.3em;}
-  .photo-mobile {height: 300px;}
+  .photo-mobile {height: 20em;}
   .text {width: 85%;}
   .small {font-size: 1.2em;}
   .button {height: 45px; width: 25%;}

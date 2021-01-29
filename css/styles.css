@@ -95,8 +95,6 @@ p {
 
 .photo-mobile {
   display: flex;
-  flex-direction: column;
-  
 }
 
 .photo-desktop {
@@ -105,7 +103,7 @@ p {
 }
 
 .photo {
- height:30vh;
+  height: 25vh;
 }
 
 .rect {

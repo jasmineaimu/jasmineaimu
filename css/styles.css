@@ -93,17 +93,13 @@ p {
   background-color: #fefaf6;
 }
 
-.photo-mobile {
-  display: flex;
-}
-
 .photo-desktop {
   display: none;
   width: 100%;
 }
 
 .photo {
-  height: 25vh;
+  height: 27vh;
 }
 
 .rect {
@@ -143,7 +139,7 @@ p {
 }
 
 .work-space {
-  background: #C4C4C4;
+  background: #E0CEBA;
   border-radius: 20px;
   height: 150px;
   margin-bottom: 40px;
@@ -187,7 +183,6 @@ p {
 @media (min-width: 47em) {
   h1 {font-size: 1.8em;}
   .nav-button {font-size: 1.3em;}
-  .photo-mobile {height: 20em;}
   .text {width: 85%;}
   .small {font-size: 1.2em;}
   .button {height: 45px; width: 25%;}
@@ -198,15 +193,14 @@ p {
 
 @media (min-width: 62em) {
   .navigation-bar {justify-content: flex-end;}
-  .nav-button {font-size: 1.3em; margin-right: 3%;}
+  .nav-button {font-size: 1em; margin-right: 3%;}
   .text {text-align: left; width: 100%;}
   .photo-mobile {display: none;}
   .textbox {align-items: flex-start; margin-left: 4em;}
-  h1 {font-size: 2.7em;}
-  .small {font-size: 1.5em;}
+  h1 {font-size: 2.3em;}
+  .small {font-size: 1.3em;}
   .container {align-items: flex-start; justify-content: flex-start;}
-  .photo-desktop {display: flex;}
-  .photo-container {display: flex; width:23em;height: 23em; padding-right: 2em;}
+  .photo-desktop {display: flex;width: 30vw;padding-right: 2em;padding-left: 2em;}
   .landing {flex-direction: row; justify-content: center; align-items: center;}
   .flex {padding: 8em;}
   .iconify {font-size: 3em;}
@@ -222,8 +216,7 @@ p {
   h1 {font-size: 3em;}
   .small {font-size: 1.5em;}
   .container {align-items: flex-start; justify-content: flex-start;}
-  .photo-desktop {display: flex;}
-  .photo-container {display: flex; width:28em;height: 28em; padding-right: 10em;}
+  .photo-desktop {display: flex;width: 30vw;padding-right: 5em;}
   .landing {flex-direction: row; justify-content: center; align-items: center;}
   .flex {padding: 12em;}
   .iconify {font-size: 3em;}
